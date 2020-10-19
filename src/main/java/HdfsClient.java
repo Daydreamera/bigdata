@@ -18,7 +18,7 @@ public class HdfsClient {
         // 2 创建目录
         fs.mkdirs(new Path("/javaAPI/test"));
         // 3 上传文件
-        //fs.copyFromLocalFile(new Path("C:/Users/Cong.Wang/Desktop/cloud.png"), new Path("/javaAPI/test/"));
+        fs.copyFromLocalFile(new Path("C:/Users/Cong.Wang/Desktop/cloud.png"), new Path("/javaAPI/test/"));
         // 4 下载数据
 //        fs.copyToLocalFile(false,new Path("/javaAPI/test/cloud.png"),new Path("D:/"),true);
         // 3 关闭资源
