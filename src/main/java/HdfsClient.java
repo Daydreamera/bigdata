@@ -20,7 +20,7 @@ public class HdfsClient {
         // 3 上传文件
         //fs.copyFromLocalFile(new Path("C:/Users/Cong.Wang/Desktop/cloud.png"), new Path("/javaAPI/test/"));
         // 4 下载数据
-        fs.copyToLocalFile(false,new Path("/javaAPI/test/cloud.png"),new Path("D:/"),true);
+//        fs.copyToLocalFile(false,new Path("/javaAPI/test/cloud.png"),new Path("D:/"),true);
         // 3 关闭资源
         fs.close();
     }
